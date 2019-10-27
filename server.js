@@ -19,6 +19,6 @@ const server = net.createServer(client => {
   client.pipe(client);
 });
 
-server.listen('8888', '180.97.81.180', function (e) {
+server.listen('8888', '0.0.0.0', function (e) {
   console.log('开启8888端口', e);
 });
